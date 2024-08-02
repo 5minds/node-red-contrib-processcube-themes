@@ -13,7 +13,7 @@ $secondary-background-disabled: #1f2428;
 $tertiary-background: #1d1d1d;
 
 $shadow: rgba(0, 0, 0, 0.2);
-$fiveminds-orange: rgb(247, 168, 35);
+$fiveminds-orange: #f7a823;
 $fiveminds-orange-hover: #ed9815;
 
 // Main body text
@@ -39,7 +39,7 @@ $text-color-error: #f97583;
 $text-color-warning: #ffea7f;
 $text-color-success: #34d058;
 $text-color-code: #d1d5da;
-$text-color-link: #79b8ff;
+$text-color-link: $fiveminds-orange;
 
 $primary-border-color: #5d5d5d;
 $secondary-border-color: scale-color($primary-border-color, $lightness: -14%);
@@ -53,7 +53,7 @@ $form-background: $secondary-background;
 $form-placeholder-color: #959da5;
 $form-text-color: $primary-text-color;
 $form-text-color-disabled: $secondary-text-color-disabled;
-$form-input-focus-color: rgba(85, 150, 230, 0.8);
+$form-input-focus-color: $fiveminds-orange;
 $form-input-border-color: $tertiary-border-color;
 $form-input-border-selected-color: $fiveminds-orange;
 $form-input-border-error-color: $fiveminds-orange;
@@ -282,8 +282,8 @@ $group-default-stroke: $primary-border-color;
 $group-default-stroke-opacity: 1;
 $group-default-label-color: $primary-text-color;
 
-$tourGuide-border: #c56c6c;
-$tourGuide-heading-color: #c56c6c;
+$tourGuide-border: $fiveminds-orange;
+$tourGuide-heading-color: $fiveminds-orange;
 
 $grip-color: rgba($primary-text-color, 0.5);
 
